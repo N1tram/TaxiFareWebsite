@@ -2,10 +2,6 @@ import streamlit as st
 import datetime
 import requests
 
-'''
-# TaxiFareModel front
-'''
-
 st.markdown('''
 # Prediction of Taxi Fares in NYC
 
