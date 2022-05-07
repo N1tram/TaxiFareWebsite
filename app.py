@@ -19,16 +19,20 @@ time = st.time_input(
     "Time"
 )
 pickup_lat = st.text_input(
-    "Pickup Latitude"
+    "Pickup Latitude",
+    "-73.9798157"
 )
 pickup_lng = st.text_input(
-    "Pickup Longitude"
+    "Pickup Longitude",
+    "40.7614327"
 )
 dropoff_lat = st.text_input(
-    "Dropoff Latitude"
+    "Dropoff Latitude",
+    "-73.9797156"
 )
 dropoff_lng = st.text_input(
-    "Dropoff Longitude"
+    "Dropoff Longitude",
+    "40.6413111"
 )
 passenger = st.selectbox("Passengers", [1,2,3,4,5,6,7,8])
 
